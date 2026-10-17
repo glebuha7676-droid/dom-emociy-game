@@ -1,0 +1,8 @@
+Generated using the built-in image_gen tool.
+
+Use case: stylized-concept.
+Asset type: an opaque sandstone paving material image, wide landscape aspect exactly 2:1, intended to fill a precisely positioned trapezoidal path mask in a mobile game.
+Reference: the supplied cropped front stairs of the house is a color, lighting, material and 3D rendering reference ONLY. Do not draw stairs or a house.
+Primary request: regenerate a seamless-looking garden path surface made of warm light cream / honey sandstone flagstones, matching those front stairs. Fill the ENTIRE RECTANGULAR IMAGE edge to edge with stone paving. No sky, grass, bushes, transparent margin, path outline or background anywhere.
+Composition and perspective: level centered straight walkway seen from above at a gentle frontal downward angle. The flagstones at the top are smaller, and gradually larger toward the bottom, with mostly horizontal softly curved grout seams and a few staggered vertical seams. Keep the paving pattern visually centered and balanced, without any diagonal flow or sideways bend. Use the whole canvas as texture; the application supplies the exact path edges.
+Style: same warm softly rendered 3D children's family game style as the stairs. Subtle sandy stone grain, rounded gently irregular flagstone edges, narrow muted tan grout, soft sunlight from upper left. Low contrast, natural understated highlights, no cracks, no harsh outlines, no flowers, no props, no text, no border, no extra steps. The top stone color should match the bottom cream step in the reference so that the junction looks natural. Opaque raster.

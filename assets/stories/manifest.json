@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "id": "hot-tea",
+      "room": "kitchen",
+      "source": "IMG_0090.JPG",
+      "file": "assets/stories/hot-tea.webp",
+      "width": 1600,
+      "height": 893
+    },
+    {
+      "id": "boo",
+      "room": "kids",
+      "source": "IMG_0092.JPG",
+      "file": "assets/stories/boo.webp",
+      "width": 1600,
+      "height": 893
+    },
+    {
+      "id": "tidy-socks",
+      "room": "parents",
+      "source": "IMG_0094.JPG",
+      "file": "assets/stories/tidy-socks.webp",
+      "width": 1600,
+      "height": 893
+    },
+    {
+      "id": "jenga",
+      "room": "living",
+      "source": "IMG_0096.JPG",
+      "file": "assets/stories/jenga.webp",
+      "width": 1600,
+      "height": 893
+    },
+    {
+      "id": "drawing",
+      "room": "kids",
+      "source": "IMG_0107.JPG",
+      "file": "assets/stories/drawing.webp",
+      "width": 1600,
+      "height": 1435
+    },
+    {
+      "id": "new-dress",
+      "room": "parents",
+      "source": "IMG_0112.JPG",
+      "file": "assets/stories/new-dress.webp",
+      "width": 1600,
+      "height": 893
+    },
+    {
+      "id": "book-time",
+      "room": "grandparents",
+      "source": "IMG_0118.JPG",
+      "file": "assets/stories/book-time.webp",
+      "width": 1600,
+      "height": 893
+    },
+    {
+      "id": "doll-gift",
+      "room": "kids",
+      "source": "IMG_0086.JPG",
+      "file": "assets/stories/doll-gift.webp",
+      "width": 1600,
+      "height": 1073
+    },
+    {
+      "id": "warm-socks",
+      "room": "grandparents",
+      "source": "IMG_0088.JPG",
+      "file": "assets/stories/warm-socks.webp",
+      "width": 1600,
+      "height": 893
+    }
+  ],
+  "duplicates": [
+    {
+      "source": "IMG_0052.JPG",
+      "sameSceneAs": "IMG_0086.JPG",
+      "story": "doll-gift",
+      "note": "Same illustrated scene; keep a single story."
+    }
+  ],
+  "note": "Complete uncropped supplied scenes, including speech bubbles. Original files stay unchanged."
+}

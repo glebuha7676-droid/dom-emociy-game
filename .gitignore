@@ -1,0 +1,30 @@
+# Local preview and generated exports
+_site/
+qa/*
+!qa/*.cjs
+demo-one-file.html
+export-bundle.js
+preview-*.png
+*.log
+*.saving-*
+node_modules/
+
+# Supplied originals and unused graphic working files
+ПЕРСОНАЖИ И ИХ ЭМОЦИИ/
+assets/avatars/masters/
+assets/avatars/*.svg
+assets/avatars/family-preview.png
+assets/room-icons/icons-preview.png
+assets/home-garden-v1.png
+assets/home-garden-v2.png
+assets/home-path-v1.svg
+assets/path-stone-v1.png
+
+# Credentials and private machine configuration
+.env
+.env.*
+!.env.example
+.codex/
+.agents/
+*.pem
+*.key

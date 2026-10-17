@@ -1,0 +1,12 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'..'),site=path.join(root,'_site');
+const html=fs.readFileSync(path.join(site,'index.html'),'utf8');
+assert(!html.includes('studio-link'));
+for(const match of html.matchAll(/(?:src|href)="([^"]+)"/g))assert(fs.existsSync(path.join(site,match[1])),'Missing entry reference '+match[1]);
+for(const file of fs.readdirSync(site).filter(name=>name.endsWith('.js')))new vm.Script(fs.readFileSync(path.join(site,file),'utf8'));
+const ctx=vm.createContext({window:{}});for(const file of ['game-data.js','story-data.js','portrait-data.js'])vm.runInContext(fs.readFileSync(path.join(site,file),'utf8'),ctx);
+assert.equal(ctx.window.GAME_DATA.stories.length,9);for(const st of ctx.window.GAME_DATA.stories)assert(fs.existsSync(path.join(site,st.sceneImage)));
+for(const r of ctx.window.GAME_DATA.rooms)assert(fs.existsSync(path.join(site,r.iconImage)));
+for(const emotions of Object.values(ctx.window.EMOTION_PORTRAITS))for(const file of Object.values(emotions))assert(fs.existsSync(path.join(site,file)));
+assert(!fs.existsSync(path.join(site,'editor.html')));assert(!fs.existsSync(path.join(site,'serve.cjs')));
+console.log('PASS: portable Pages entry, all runtime scripts, nine stories, 36 portraits, five room icons; local editor and server stay in source repo.');

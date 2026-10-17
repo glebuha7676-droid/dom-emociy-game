@@ -1,0 +1,74 @@
+{
+  "version": 1,
+  "description": "Единые круглые портреты семьи",
+  "size": 512,
+  "tool": "built-in image_gen; shared SVG framing",
+  "characters": [
+    {
+      "id": "grandma",
+      "name": "Бабушка",
+      "folder": "Бабушка",
+      "width": 512,
+      "height": 512,
+      "expression": "neutral-friendly",
+      "png": "grandma.png",
+      "svg": "grandma.svg",
+      "source": "masters/grandma-source.png"
+    },
+    {
+      "id": "grandpa",
+      "name": "Дедушка",
+      "folder": "Дедушка",
+      "width": 512,
+      "height": 512,
+      "expression": "neutral-friendly",
+      "png": "grandpa.png",
+      "svg": "grandpa.svg",
+      "source": "masters/grandpa-source.png"
+    },
+    {
+      "id": "mother",
+      "name": "Мама",
+      "folder": "Мама",
+      "width": 512,
+      "height": 512,
+      "expression": "neutral-friendly",
+      "png": "mother.png",
+      "svg": "mother.svg",
+      "source": "masters/mother-source.png"
+    },
+    {
+      "id": "father",
+      "name": "Папа",
+      "folder": "Отец",
+      "width": 512,
+      "height": 512,
+      "expression": "neutral-friendly",
+      "png": "father.png",
+      "svg": "father.svg",
+      "source": "masters/father-source.png"
+    },
+    {
+      "id": "brother",
+      "name": "Брат",
+      "folder": "Мальчик",
+      "width": 512,
+      "height": 512,
+      "expression": "neutral-friendly",
+      "png": "brother.png",
+      "svg": "brother.svg",
+      "source": "masters/brother-source.png"
+    },
+    {
+      "id": "sister",
+      "name": "Сестра",
+      "folder": "Девочка",
+      "width": 512,
+      "height": 512,
+      "expression": "neutral-friendly",
+      "png": "sister.png",
+      "svg": "sister.svg",
+      "source": "masters/sister-source.png"
+    }
+  ]
+}

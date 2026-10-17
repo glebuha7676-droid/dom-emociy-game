@@ -1,0 +1,285 @@
+{
+  "version": 1,
+  "width": 448,
+  "height": 600,
+  "portraits": {
+    "grandma": {
+      "neutral": "assets/characters/grandma/neutral.webp",
+      "joy": "assets/characters/grandma/joy.webp",
+      "sadness": "assets/characters/grandma/sadness.webp",
+      "anger": "assets/characters/grandma/anger.webp",
+      "surprise": "assets/characters/grandma/surprise.webp",
+      "fear": "assets/characters/grandma/fear.webp",
+      "disgust": "assets/characters/grandma/disgust.webp",
+      "curiosity": "assets/characters/grandma/curiosity.webp"
+    },
+    "grandpa": {
+      "neutral": "assets/characters/grandpa/neutral.webp",
+      "joy": "assets/characters/grandpa/joy.webp",
+      "sadness": "assets/characters/grandpa/sadness.webp",
+      "anger": "assets/characters/grandpa/anger.webp",
+      "fear": "assets/characters/grandpa/fear.webp"
+    },
+    "mother": {
+      "neutral": "assets/characters/mother/neutral.webp",
+      "joy": "assets/characters/mother/joy.webp",
+      "sadness": "assets/characters/mother/sadness.webp",
+      "anger": "assets/characters/mother/anger.webp",
+      "surprise": "assets/characters/mother/surprise.webp",
+      "fear": "assets/characters/mother/fear.webp",
+      "disgust": "assets/characters/mother/disgust.webp"
+    },
+    "father": {
+      "neutral": "assets/characters/father/neutral.webp",
+      "surprise": "assets/characters/father/surprise.webp",
+      "disgust": "assets/characters/father/disgust.webp"
+    },
+    "brother": {
+      "neutral": "assets/characters/brother/neutral.webp",
+      "joy": "assets/characters/brother/joy.webp",
+      "surprise": "assets/characters/brother/surprise.webp",
+      "fear": "assets/characters/brother/fear.webp",
+      "disgust": "assets/characters/brother/disgust.webp",
+      "curiosity": "assets/characters/brother/curiosity.webp"
+    },
+    "sister": {
+      "neutral": "assets/characters/sister/neutral.webp",
+      "joy": "assets/characters/sister/joy.webp",
+      "sadness": "assets/characters/sister/sadness.webp",
+      "surprise": "assets/characters/sister/surprise.webp",
+      "fear": "assets/characters/sister/fear.webp",
+      "disgust": "assets/characters/sister/disgust.webp",
+      "curiosity": "assets/characters/sister/curiosity.webp"
+    }
+  },
+  "entries": [
+    {
+      "id": "grandma",
+      "emotion": "neutral",
+      "file": "assets/characters/grandma/neutral.webp",
+      "source": "Бабушка/Эталон бабушки.JPG"
+    },
+    {
+      "id": "grandma",
+      "emotion": "joy",
+      "file": "assets/characters/grandma/joy.webp",
+      "source": "Бабушка/Радость.JPG"
+    },
+    {
+      "id": "grandma",
+      "emotion": "sadness",
+      "file": "assets/characters/grandma/sadness.webp",
+      "source": "Бабушка/Грусть.JPG"
+    },
+    {
+      "id": "grandma",
+      "emotion": "anger",
+      "file": "assets/characters/grandma/anger.webp",
+      "source": "Бабушка/Злость.JPG"
+    },
+    {
+      "id": "grandma",
+      "emotion": "surprise",
+      "file": "assets/characters/grandma/surprise.webp",
+      "source": "Бабушка/Удивление.JPG"
+    },
+    {
+      "id": "grandma",
+      "emotion": "fear",
+      "file": "assets/characters/grandma/fear.webp",
+      "source": "Бабушка/Страх.JPG"
+    },
+    {
+      "id": "grandma",
+      "emotion": "disgust",
+      "file": "assets/characters/grandma/disgust.webp",
+      "source": "Бабушка/Отвращение.JPG"
+    },
+    {
+      "id": "grandma",
+      "emotion": "curiosity",
+      "file": "assets/characters/grandma/curiosity.webp",
+      "source": "Бабушка/Заинтересованность.png"
+    },
+    {
+      "id": "grandpa",
+      "emotion": "neutral",
+      "file": "assets/characters/grandpa/neutral.webp",
+      "source": "Дедушка/Эталон дедушки.JPG"
+    },
+    {
+      "id": "grandpa",
+      "emotion": "joy",
+      "file": "assets/characters/grandpa/joy.webp",
+      "source": "Дедушка/Радость.JPG"
+    },
+    {
+      "id": "grandpa",
+      "emotion": "sadness",
+      "file": "assets/characters/grandpa/sadness.webp",
+      "source": "Дедушка/Грусть.JPG"
+    },
+    {
+      "id": "grandpa",
+      "emotion": "anger",
+      "file": "assets/characters/grandpa/anger.webp",
+      "source": "Дедушка/Злость.JPG"
+    },
+    {
+      "id": "grandpa",
+      "emotion": "fear",
+      "file": "assets/characters/grandpa/fear.webp",
+      "source": "Дедушка/Страх.JPG"
+    },
+    {
+      "id": "mother",
+      "emotion": "neutral",
+      "file": "assets/characters/mother/neutral.webp",
+      "source": "Мама/Эталон мамы.JPG"
+    },
+    {
+      "id": "mother",
+      "emotion": "joy",
+      "file": "assets/characters/mother/joy.webp",
+      "source": "Мама/Радость.JPG"
+    },
+    {
+      "id": "mother",
+      "emotion": "sadness",
+      "file": "assets/characters/mother/sadness.webp",
+      "source": "Мама/Грусть.JPG"
+    },
+    {
+      "id": "mother",
+      "emotion": "anger",
+      "file": "assets/characters/mother/anger.webp",
+      "source": "Мама/Гнев.JPG"
+    },
+    {
+      "id": "mother",
+      "emotion": "surprise",
+      "file": "assets/characters/mother/surprise.webp",
+      "source": "Мама/Удивление.JPG"
+    },
+    {
+      "id": "mother",
+      "emotion": "fear",
+      "file": "assets/characters/mother/fear.webp",
+      "source": "Мама/Страх.JPG"
+    },
+    {
+      "id": "mother",
+      "emotion": "disgust",
+      "file": "assets/characters/mother/disgust.webp",
+      "source": "Мама/Отвращение.JPG"
+    },
+    {
+      "id": "father",
+      "emotion": "neutral",
+      "file": "assets/characters/father/neutral.webp",
+      "source": "Отец/Эталон отца.JPG"
+    },
+    {
+      "id": "father",
+      "emotion": "surprise",
+      "file": "assets/characters/father/surprise.webp",
+      "source": "Отец/Удивление.png"
+    },
+    {
+      "id": "father",
+      "emotion": "disgust",
+      "file": "assets/characters/father/disgust.webp",
+      "source": "Отец/Отвращение.png"
+    },
+    {
+      "id": "brother",
+      "emotion": "neutral",
+      "file": "assets/characters/brother/neutral.webp",
+      "source": "Мальчик/Эталон мальчика.JPG"
+    },
+    {
+      "id": "brother",
+      "emotion": "joy",
+      "file": "assets/characters/brother/joy.webp",
+      "source": "Мальчик/Радость.JPG"
+    },
+    {
+      "id": "brother",
+      "emotion": "surprise",
+      "file": "assets/characters/brother/surprise.webp",
+      "source": "Мальчик/Удивление.JPG"
+    },
+    {
+      "id": "brother",
+      "emotion": "fear",
+      "file": "assets/characters/brother/fear.webp",
+      "source": "Мальчик/Страх.JPG"
+    },
+    {
+      "id": "brother",
+      "emotion": "disgust",
+      "file": "assets/characters/brother/disgust.webp",
+      "source": "Мальчик/Отвращение.JPG"
+    },
+    {
+      "id": "brother",
+      "emotion": "curiosity",
+      "file": "assets/characters/brother/curiosity.webp",
+      "source": "Мальчик/Любопытство.JPG"
+    },
+    {
+      "id": "sister",
+      "emotion": "neutral",
+      "file": "assets/characters/sister/neutral.webp",
+      "source": "Девочка/Эталон девочки.JPG"
+    },
+    {
+      "id": "sister",
+      "emotion": "joy",
+      "file": "assets/characters/sister/joy.webp",
+      "source": "Девочка/Радость.JPG"
+    },
+    {
+      "id": "sister",
+      "emotion": "sadness",
+      "file": "assets/characters/sister/sadness.webp",
+      "source": "Девочка/Грусть.JPG"
+    },
+    {
+      "id": "sister",
+      "emotion": "surprise",
+      "file": "assets/characters/sister/surprise.webp",
+      "source": "Девочка/Удивление.JPG"
+    },
+    {
+      "id": "sister",
+      "emotion": "fear",
+      "file": "assets/characters/sister/fear.webp",
+      "source": "Девочка/Страх.JPG"
+    },
+    {
+      "id": "sister",
+      "emotion": "disgust",
+      "file": "assets/characters/sister/disgust.webp",
+      "source": "Девочка/Отвращение.JPG"
+    },
+    {
+      "id": "sister",
+      "emotion": "curiosity",
+      "file": "assets/characters/sister/curiosity.webp",
+      "source": "Девочка/Любопытство.JPG"
+    }
+  ],
+  "unmapped": [
+    "Стыд",
+    "Высокомерие",
+    "Надменность",
+    "Сочувствие",
+    "Зависть",
+    "Безразличие",
+    "Разочаровние",
+    "Настольгия",
+    "Хитрость"
+  ],
+  "note": "Use existing matching expressions. Shame is not automatically mapped to shyness. Missing combinations are excluded from image quizzes."
+}

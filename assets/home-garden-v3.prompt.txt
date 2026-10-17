@@ -1,0 +1,6 @@
+Generated using the built-in image_gen tool.
+
+Use case: precise-object-edit.
+Edit target: the supplied portrait sunny garden background.
+Primary request: REMOVE ONLY the sandstone walkway/path in the lower foreground and replace its entire area with continuous matching soft green lawn. Preserve the existing sky, clouds, trees, fence fragments, side bushes, planting beds, lighting, shadows, image dimensions, framing and colors as closely as possible. This is a background plate for a separately positioned house and separately generated pathway.
+The lawn should continue naturally through the entire bottom, with the same simplified warm sunlit grass texture, small-scale contact shadows and gentle ground perspective. Retain the empty quiet center. No road, no stepping stones, no paving, no cream blank panel, no house, no people, no UI, no labels. Opaque image, same portrait aspect and composition as the input. Change only the old path into grass.

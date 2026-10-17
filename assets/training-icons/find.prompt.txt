@@ -1,0 +1,9 @@
+Generated with the built-in image_gen tool.
+
+Use case: stylized-concept.
+Asset type: one isolated premium 3D icon for a cozy children's family game about understanding emotions.
+Style: warm softly rendered 3D objects, tactile matte materials, rounded generous shapes, simple readable silhouette, friendly and calm. Consistent with an illustrated honey-oak dollhouse and teal sofa. Three-quarter front view, camera slightly above, soft light from upper left.
+Composition: square image, one compact centered object group, whole object visible, occupies 80 percent of canvas, even clear margins. Truly transparent alpha background.
+Constraints: no letters, numbers, words, logos, watermark, border, circular badge backdrop, floor, cast ground shadow, scenery, people or full characters. Details must remain readable at 48 px.
+
+Primary request: Three overlapping rounded ivory picture cards fanned slightly, with three simple 3D emoji faces: a small happy gold face, a surprised coral face, and a thoughtful mint face. A small teal magnifying glass overlaps the front card at the bottom right. Compact simple shape; no written labels on the cards.

@@ -1,0 +1,9 @@
+Generated with the built-in image_gen tool.
+
+Use case: stylized-concept.
+Asset type: one isolated premium 3D icon for a cozy children's family game about understanding emotions.
+Style: warm softly rendered 3D objects, tactile matte materials, rounded generous shapes, simple readable silhouette, friendly and calm. Consistent with an illustrated honey-oak dollhouse and teal sofa. Three-quarter front view, camera slightly above, soft light from upper left.
+Composition: square image, one compact centered object group, whole object visible, occupies 80 percent of canvas, even clear margins. Truly transparent alpha background.
+Constraints: no letters, numbers, words, logos, watermark, border, circular badge backdrop, floor, cast ground shadow, scenery, people or full characters. Details must remain readable at 48 px.
+
+Primary request: A compact upright ivory desk calendar with two small honey-gold binding rings and a coral top strip. Instead of numbers, one large friendly mint checkmark is raised in the center. One calendar only, no dates or lettering.

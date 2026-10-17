@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f7f5">
+  <title>Дом эмоций · Мастерская</title>
+  <link rel="stylesheet" href="editor.css">
+</head>
+<body>
+  <header class="studio-header">
+    <a class="studio-brand" href="index.html" title="Открыть игру"><span class="studio-logo">⌂</span><span>Дом эмоций<small>Визуальная мастерская</small></span></a>
+    <div class="project-title"><input id="project-name" aria-label="Название проекта" value="Дом эмоций"><span class="local-badge">Локальный проект</span></div>
+    <div class="header-actions">
+      <div class="history-buttons"><button id="undo" title="Отменить · Ctrl+Z" aria-label="Отменить">↶</button><button id="redo" title="Повторить · Ctrl+Shift+Z" aria-label="Повторить">↷</button></div>
+      <button id="import-project" class="button quiet">Открыть проект</button>
+      <button id="export-project" class="button">Скачать проект</button>
+      <button id="export-game" class="button">Скачать игру ↗</button>
+      <button id="save-game" class="button accent" disabled>Сохранить в игру ✓</button>
+    </div>
+  </header>
+  <div class="studio-workspace">
+    <aside class="left-panel">
+      <div class="panel-tabs" role="tablist" aria-label="Разделы мастерской">
+        <button data-tab="layers" class="active" role="tab" aria-selected="true">Слои</button><button data-tab="assets" role="tab" aria-selected="false">Графика</button><button data-tab="content" role="tab" aria-selected="false">Тексты</button>
+      </div>
+      <div id="left-content" class="panel-scroll"></div>
+      <div class="panel-footnote">Черновик сохраняется автоматически.<br>«Сохранить в игру» обновляет файлы проекта.</div>
+    </aside>
+    <main class="canvas-panel">
+      <div class="canvas-toolbar">
+        <label class="screen-picker"><span>Экран</span><select id="screen-select" aria-label="Экран игры"></select></label>
+        <div class="mode-switch"><button id="edit-mode" class="active">✎ Редактировать</button><button id="play-mode">▷ Играть</button></div>
+      </div>
+      <div class="canvas-settings">
+        <select id="device-select" aria-label="Размер устройства"><option value="390,844">Телефон · 390 × 844</option><option value="360,800">Телефон · 360 × 800</option><option value="375,667">Компактный · 375 × 667</option><option value="430,932">Большой · 430 × 932</option><option value="844,390">Горизонтально · 844 × 390</option></select>
+        <label class="grid-label">Сетка <select id="grid-select" aria-label="Шаг сетки"><option value="0">Нет</option><option value="4" selected>4 px</option><option value="8">8 px</option><option value="16">16 px</option></select></label>
+        <label class="zoom-label">Масштаб <select id="zoom-select"><option value="auto">По размеру окна</option><option value="0.5">50%</option><option value="0.75">75%</option><option value="1">100%</option></select></label>
+      </div>
+      <div id="canvas-area" class="canvas-area">
+        <div id="device-shell" class="device-shell"><div class="device-speaker"></div><iframe id="preview" src="index.html?editor=1" title="Предпросмотр игры"></iframe></div>
+      </div>
+      <div class="canvas-bottom"><span id="canvas-hint">Выбери элемент на экране или в списке слоёв</span><span id="viewport-info">390 × 844</span></div>
+    </main>
+    <aside class="right-panel">
+      <div class="panel-tabs inspector-tabs"><button data-inspector="element" class="active">Элемент</button><button data-inspector="theme">Оформление</button></div>
+      <div id="inspector" class="panel-scroll"></div>
+    </aside>
+  </div>
+  <footer class="studio-footer"><span id="save-state" role="status"><i class="status-dot"></i>Загрузка проекта…</span><span id="overflow-state"></span><button id="save-now" disabled>Сохранить в игру · Ctrl+S</button></footer>
+  <div id="notice" class="notice" role="status" hidden></div>
+  <input id="project-file" type="file" accept=".json,application/json" hidden>
+  <input id="image-file" type="file" accept="image/png,image/jpeg,image/webp,image/gif,image/svg+xml,image/avif" hidden>
+  <script src="game-data.js"></script>
+  <script src="story-data.js"></script>
+  <script src="portrait-data.js"></script>
+  <script src="project.js"></script>
+  <script src="project-store.js"></script>
+  <script src="export-bundle.js"></script>
+  <script src="editor.js"></script>
+</body>
+</html>

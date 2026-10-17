@@ -1,0 +1,10 @@
+Generated with the built-in image_gen tool.
+
+Use case: stylized-concept.
+Asset type: one isolated 3D icon for a child's mobile family game called House of Emotions.
+Style: premium warm friendly softly rendered 3D toy-like objects, matching a cozy cutaway wooden dollhouse. Rounded believable volumes, tactile matte materials, delicate detail only where readable at 28 to 40 pixels, realistic soft ambient occlusion within the object. No outlines.
+Composition: square image, one centered compact object group occupying approximately 78 percent of the canvas, generous even transparent margins, three-quarter front view with camera slightly above, whole object fully visible. Consistent scale and camera across the icon family. Soft warm studio light from upper left, mild shadows within the object, no ground plane or cast shadow outside the object.
+Background: truly transparent alpha.
+Constraints: no people, no room interior, no scenery, no badges, no circle, no frames, no lettering, no text, no watermark. No floating extra decoration.
+
+Primary request: Kitchen icon: a small rounded sage-green enamel saucepan with two short side handles, a warm creamy soup visible inside and a short wooden ladle resting diagonally in the pot. Keep it compact and simple, pot is the dominant silhouette.
